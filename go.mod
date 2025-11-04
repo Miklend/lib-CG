@@ -1,4 +1,4 @@
-module lib-CG
+module github.com/Miklend/lib-CG
 
 go 1.24.9
 
