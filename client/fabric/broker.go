@@ -1,10 +1,11 @@
 package fabricClient
 
 import (
-	"lib-CG/client/broker"
-	"lib-CG/client/broker/kafka"
-	"lib-CG/common/logging"
-	"lib-CG/models/configs"
+	"github.com/Miklend/lib-CG/common/logging"
+
+	"github.com/Miklend/lib-CG/client/broker"
+	"github.com/Miklend/lib-CG/client/broker/kafka"
+	"github.com/Miklend/lib-CG/models/configs"
 )
 
 const (

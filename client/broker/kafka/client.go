@@ -3,12 +3,13 @@ package kafka
 import (
 	"context"
 	"fmt"
-	"lib-CG/client/broker"
-	"lib-CG/common/logging"
-	"lib-CG/models"
-	"lib-CG/models/configs"
+
 	"log"
 
+	"github.com/Miklend/lib-CG/client/broker"
+	"github.com/Miklend/lib-CG/common/logging"
+	"github.com/Miklend/lib-CG/models"
+	"github.com/Miklend/lib-CG/models/configs"
 	"github.com/segmentio/kafka-go"
 )
 

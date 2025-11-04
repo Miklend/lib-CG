@@ -1,9 +1,10 @@
 package common
 
 import (
-	"lib-CG/models/dto"
 	"strconv"
 	"strings"
+
+	"github.com/Miklend/lib-CG/models/dto"
 )
 
 func trim0x(s string) string {

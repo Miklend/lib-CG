@@ -3,12 +3,12 @@ package alchemy
 import (
 	"context"
 	"fmt"
-	"lib-CG/client/node"
-	"lib-CG/common"
-	"lib-CG/common/logging"
-	"lib-CG/models/configs"
-	"lib-CG/models/dto"
 
+	"github.com/Miklend/lib-CG/client/node"
+	"github.com/Miklend/lib-CG/common"
+	"github.com/Miklend/lib-CG/common/logging"
+	"github.com/Miklend/lib-CG/models/configs"
+	"github.com/Miklend/lib-CG/models/dto"
 	"github.com/ethereum/go-ethereum/rpc"
 )
 

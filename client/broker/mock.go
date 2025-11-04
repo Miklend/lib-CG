@@ -2,7 +2,8 @@ package broker
 
 import (
 	"context"
-	"lib-CG/models"
+
+	"github.com/Miklend/lib-CG/models"
 )
 
 type MockBrokerClient struct{}

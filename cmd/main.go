@@ -4,12 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	fabricClient "lib-CG/client/fabric"
-	"lib-CG/common/logging"
-	"lib-CG/models/configs"
+
 	"os"
 	"os/signal"
 	"syscall"
+
+	fabricClient "github.com/Miklend/lib-CG/client/fabric"
+	"github.com/Miklend/lib-CG/common/logging"
+	"github.com/Miklend/lib-CG/models/configs"
 )
 
 func main() {

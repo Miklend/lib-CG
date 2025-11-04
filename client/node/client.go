@@ -2,8 +2,8 @@ package node
 
 import (
 	"context"
-	"lib-CG/models/dto"
 
+	"github.com/Miklend/lib-CG/models/dto"
 	"github.com/ethereum/go-ethereum/rpc"
 )
 

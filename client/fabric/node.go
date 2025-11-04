@@ -2,10 +2,11 @@ package fabricClient
 
 import (
 	"fmt"
-	"lib-CG/client/node"
-	"lib-CG/client/node/alchemy"
-	"lib-CG/common/logging"
-	"lib-CG/models/configs"
+
+	"github.com/Miklend/lib-CG/client/node"
+	"github.com/Miklend/lib-CG/client/node/alchemy"
+	"github.com/Miklend/lib-CG/common/logging"
+	"github.com/Miklend/lib-CG/models/configs"
 )
 
 const (

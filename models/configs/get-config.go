@@ -2,11 +2,12 @@ package configs
 
 import (
 	"flag"
-	"lib-CG/common/logging"
+
 	"log/slog"
 	"os"
 	"sync"
 
+	"github.com/Miklend/lib-CG/common/logging"
 	"github.com/ilyakaznacheev/cleanenv"
 	"github.com/joho/godotenv"
 )
